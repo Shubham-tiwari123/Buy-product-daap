@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#card-body{
+  width: 300px;
+  height: auto;
+  background-color: #09d3ac;
+  margin-left: 120px;
+  margin-top: 30px;
+  float: left;
+}
+
+#product-title{
+  width: auto;
+  height: fit-content;
+  background-color: yellowgreen;
+  padding: 10px;
+}
+
+#product-des{
+  width: auto;
+  height: fit-content;
+  background-color: greenyellow;
+  padding: 10px;
+}
+
+#product-price{
+  height: 18px;
+  background-color: olivedrab;
+  padding: 10px;
+}
+
+#price-tag{
+  width: fit-content;
+  float: left;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+#buy-product{
+  width: fit-content;
+  float: right;
+  margin-right: 30px;
+}
